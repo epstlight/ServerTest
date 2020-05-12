@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://34.64.149.11:3306/gamedb?serverTimezone=Asia/Seoul
-    username: root
-    password: NGqsPBsg10v2DHLa
+    url: jdbc:mysql:///game-demo-db?cloudSqlInstance=learned-tube-276404:asia-northeast3:game-demo-db&socketFactory=com.google.cloud.sql.mysql.SocketFactory&user=root&password=NGqsPBsg10v2DHLa
+#    username: root
+#    password: NGqsPBsg10v2DHLa
 #    driver-class-name: com.mysql.cj.jdbc.Driver
 #    url: jdbc:mysql://localhost:3306/studydb?serverTimezone=Asia/Seoul
 #    username: study
